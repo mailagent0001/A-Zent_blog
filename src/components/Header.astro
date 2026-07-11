@@ -2,14 +2,11 @@
 import { SITE_TITLE } from '../consts';
 import HeaderLink from './HeaderLink.astro';
 ---
-
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<h2><a href="/blog">{SITE_TITLE}</a></h2>
 		<div class="internal-links">
-			<HeaderLink href="/">Home</HeaderLink>
 			<HeaderLink href="/blog">Blog</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
 		</div>
 		<div class="social-links">
 			<a href="https://m.webtoo.ls/@astro" target="_blank">
@@ -53,7 +50,6 @@ import HeaderLink from './HeaderLink.astro';
 		margin: 0;
 		font-size: 1em;
 	}
-
 	h2 a,
 	h2 a.active {
 		text-decoration: none;
