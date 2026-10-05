@@ -1,0 +1,86 @@
+# 検証済み: 2026-10-05
+# 使い方: 対象リポジトリの .github/workflows/opencode.yml にコピーする
+# 前提: Secrets に GEMINI_API_KEY を登録、Actionsの権限を設定済み（README参照）
+name: opencode
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  opencode:
+    # リポジトリの持ち主が作ったIssueだけ実行（他人による悪用を防ぐ）。消さないこと
+    if: github.event.issue.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: write
+      pull-requests: write
+      issues: write
+    env:
+      TASK_PROMPT: |
+        次のIssueの内容を実装してください。
+
+        Issue番号: #${{ github.event.issue.number }}
+        タイトル: ${{ github.event.issue.title }}
+        本文:
+        ${{ github.event.issue.body }}
+
+        進め方:
+        1. 関連するファイルを読み、変更方針を決める。
+        2. 実装する。要件に関係ないファイルは変更しない。
+        3. `npm run build` を実行する。エラーが出たら原因を直して再実行する。成功するまで繰り返す（最大3回）。
+        4. Issueの完了条件を1つずつ確認する。満たしていないものがあれば修正する。
+        5. 最後に、変更したファイルと、確認した結果を簡潔に報告する。
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      # Node.jsのプロジェクト用。別の言語なら、その言語の準備手順に書き換える
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # 1番手（枠が小さく混雑しやすい。3.5 Flash Liteを1番手にしてもよい）
+      - name: opencode (primary - 3.8 Flash)
+        id: primary
+        continue-on-error: true
+        uses: anomalyco/opencode/github@latest
+        env:
+          GOOGLE_GENERATIVE_AI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USE_GITHUB_TOKEN: "true"
+        with:
+          model: google/gemini-3.8-flash
+          prompt: ${{ env.TASK_PROMPT }}
+
+      # 2番手（1番手が失敗したときだけ）
+      - name: opencode (fallback 1 - 3.5 Flash Lite)
+        id: fallback1
+        if: steps.primary.outcome == 'failure'
+        continue-on-error: true
+        uses: anomalyco/opencode/github@latest
+        env:
+          GOOGLE_GENERATIVE_AI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USE_GITHUB_TOKEN: "true"
+        with:
+          model: google/gemini-3.5-flash-lite
+          prompt: ${{ env.TASK_PROMPT }}
+
+      # 3番手（2番手も失敗したときだけ）
+      - name: opencode (fallback 2 - 3.1 Flash Lite)
+        if: steps.fallback1.outcome == 'failure'
+        uses: anomalyco/opencode/github@latest
+        env:
+          GOOGLE_GENERATIVE_AI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USE_GITHUB_TOKEN: "true"
+        with:
+          model: google/gemini-3.1-flash-lite
+          prompt: ${{ env.TASK_PROMPT }}
