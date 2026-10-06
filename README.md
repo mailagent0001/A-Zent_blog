@@ -54,6 +54,21 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
+## 🛠️ トラブルシューティング: ブログ公開時のエラー（HTTP 409）について
+
+ブログの承認・公開時に以下のエラー（HTTP 409）が発生する場合：
+```
+HTTP 409: {"message":"Repository rule violations found\n\nChanges must be made through a pull request.\n\n"}
+```
+
+これはリポジトリのルールセット（Rulesets）により、直接のファイル更新がブロックされ、プルリクエスト経由での変更が強制されていることが原因です。以下の手順でバイパス設定を行ってください：
+
+1. GitHubのリポジトリページを開く
+2. **Settings** → **Rules** → **Rulesets** に移動する
+3. 該当のルールを開く
+4. **Bypass list** → **Add bypass** をクリックする
+5. リポジトリ所有者（Admin）または対象のアカウントを追加して保存する
+
 ## 👀 Want to learn more?
 
 Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
