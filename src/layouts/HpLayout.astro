@@ -1,0 +1,41 @@
+---
+import '../styles/hp.css';
+import Header from '../components/hp/Header.astro';
+import Footer from '../components/hp/Footer.astro';
+const { title, description, path = '/', noindex = false, crumbs = [], ld = [] } = Astro.props;
+const base = 'https://a-zent.com';
+const url = base + path;
+const bc = crumbs.length ? { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: base + c.path })) } : null;
+const all = [...ld, ...(bc ? [bc] : [])];
+---
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={url} />
+<meta name="robots" content={noindex ? 'noindex,follow' : 'index,follow,max-image-preview:large'} />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="A-Zent" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={url} />
+<meta property="og:image" content="https://a-zent.com/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://a-zent.com/og-image.png" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;600&display=swap" rel="stylesheet">
+{all.map((x) => <script type="application/ld+json" set:html={JSON.stringify(x)} />)}
+</head>
+<body>
+<Header />
+<main><slot /></main>
+<a class="btn fab" id="fab" href="/contact/">事前相談・ご意見を送る ▷</a>
+<Footer />
+<script is:inline>
+try{var c=document.getElementById('consult');if(c){new IntersectionObserver(function(en){document.getElementById('fab').classList.toggle('hide',en[0].isIntersecting)}).observe(c)}}catch(e){}
+</script>
+</body>
+</html>

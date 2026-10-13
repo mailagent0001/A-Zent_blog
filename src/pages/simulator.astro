@@ -1,0 +1,16 @@
+---
+import HpLayout from '../layouts/HpLayout.astro';
+const title = "業務自動化の効果シミュレーター|A-Zent";
+const description = "作業時間と人件費から、業務自動化で減らせる時間と金額の目安を計算できます。無料・登録不要。";
+const crumbs = [{"name": "ホーム", "path": "/"}, {"name": "業務自動化の効果シミュレーター", "path": "/simulator/"}];
+---
+<HpLayout title={title} description={description} path="/simulator/" crumbs={crumbs}>
+<div class="pg old on" id="p-simulator"><div class="doc"><div class="crumb"><a href="/">ホーム</a> › 業務自動化の効果シミュレーター</div><h1>業務自動化の効果シミュレーター</h1><p>毎月くり返している作業について、自動化した場合に減らせる時間と金額の目安を計算します。登録は不要です。</p>
+<div class="cf" id="sm"><label>1回あたりの作業時間(分)<input id="s1" type="number" min="0" value="30" oninput="simGo()"></label><label>1か月あたりの回数<input id="s2" type="number" min="0" value="20" oninput="simGo()"></label><label>担当者の1時間あたりの人件費(円)<input id="s3" type="number" min="0" value="2000" oninput="simGo()"></label><label>自動化で減らせる割合(%)<input id="s4" type="number" min="0" max="100" value="50" oninput="simGo()"></label></div>
+<div class="dls"><div class="dc"><h3 id="r1">-</h3><p>1か月の作業時間</p></div><div class="dc"><h3 id="r2">-</h3><p>1か月に減らせる時間</p></div><div class="dc"><h3 id="r3">-</h3><p>1年間に減らせる金額</p></div></div>
+<p style="font-size:.8rem;color:#7A7570">※入力した数値にもとづく試算です。効果を保証するものではありません。実際の効果は、業務の内容によって異なります。</p><p style="margin-top:24px"><a class="btn" href="/contact/">事前相談・ご意見を送る ▷</a></p></div></div>
+<script is:inline>
+function simGo(){var a=+document.getElementById('s1').value||0,b=+document.getElementById('s2').value||0,c=+document.getElementById('s3').value||0,d=Math.min(100,+document.getElementById('s4').value||0);var h=a*b/60,r=h*d/100;document.getElementById('r1').textContent=h.toFixed(1)+'時間';document.getElementById('r2').textContent=r.toFixed(1)+'時間';document.getElementById('r3').textContent=Math.round(r*12*c).toLocaleString()+'円'}
+simGo();
+</script>
+</HpLayout>
