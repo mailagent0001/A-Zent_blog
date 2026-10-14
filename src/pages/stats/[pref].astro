@@ -5,6 +5,7 @@ import { loadDataset, pageStatus, show, table, hasAny, loadFacts, loadCommentary
 
 const KEYS = ['population', 'establishments', 'income', 'leisure'];
 export function getStaticPaths() {
+  const KEYS = ['population', 'establishments', 'income', 'leisure'];
   const sets = KEYS.map((k) => loadDataset(k));
   const only = process.env.STATS_COMMENTED_ONLY === '1'; // 本番では解説文のある県だけ公開する設定
   return PREFS.filter((p) => sets.some((ds) => hasAny(ds, p.code)) && (!only || loadCommentary(p.slug))).map((p) => ({ params: { pref: p.slug }, props: { p } }));
