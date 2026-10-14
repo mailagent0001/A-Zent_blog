@@ -5,10 +5,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://a-zent.com',
-	redirects: {
-		'/': '/blog',
-	},
-	integrations: [mdx(), sitemap()],
+	integrations: [mdx(), sitemap({ filter: (p) => !/\/(area\/(naha|okinawa|online)|industry)\//.test(p) })],
 	fonts: [
 		{
 			provider: fontProviders.local(),
