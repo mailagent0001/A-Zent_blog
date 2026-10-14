@@ -1,0 +1,8183 @@
+{
+ "key": "population",
+ "label": "5歳階級別人口",
+ "statsDataId": "0000010101",
+ "sourceUrl": "https://www.e-stat.go.jp/dbview?sid=0000010101",
+ "fetchedAt": "2026-10-14",
+ "statisticsName": "都道府県データ 基礎データ",
+ "title": "Ａ　人口・世帯",
+ "organization": "総務省",
+ "surveyDate": 0,
+ "updatedDate": "2026-06-30",
+ "notes": [
+  {
+   "char": "***",
+   "text": "調査又は集計していないもの"
+  },
+  {
+   "char": "-",
+   "text": "データが得られないもの"
+  },
+  {
+   "char": "X",
+   "text": "数値が秘匿されているもの"
+  }
+ ],
+ "rowCount": 39339,
+ "catOrder": [
+  "A1201",
+  "A1202",
+  "A1203",
+  "A1204",
+  "A1205",
+  "A1206",
+  "A1207",
+  "A1208",
+  "A1209",
+  "A1210",
+  "A1211",
+  "A1212",
+  "A1213",
+  "A1214",
+  "A1215",
+  "A1216",
+  "A1217",
+  "A1218",
+  "A1219",
+  "A1220",
+  "A1221"
+ ],
+ "areas": {
+  "10000": {
+   "name": "群馬県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 64476,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 75492,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 84336,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 90433,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 84971,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 85309,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 92004,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 105492,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 125099,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 148569,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 129802,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 118508,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 116044,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 134811,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 149463,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 112391,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 82501,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 57888,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 30037,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 8285,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1353,
+     "symbol": null
+    }
+   }
+  },
+  "11000": {
+   "name": "埼玉県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 259281,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 291527,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 307576,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 326091,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 365852,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 363962,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 383452,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 432718,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 497191,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 599666,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 524655,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 446045,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 395556,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 446006,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 519102,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 417252,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 291131,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 168730,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 71082,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 18675,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 3016,
+     "symbol": null
+    }
+   }
+  },
+  "12000": {
+   "name": "千葉県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 221053,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 248798,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 264645,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 281545,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 316219,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 311470,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 329858,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 372869,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 423399,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 507856,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 447662,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 382032,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 342781,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 387685,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 452539,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 360862,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 254648,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 155155,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 68507,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 17752,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 2843,
+     "symbol": null
+    }
+   }
+  },
+  "13000": {
+   "name": "東京都",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 521062,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 531824,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 513954,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 544076,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 798823,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 911945,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 917440,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 977812,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1036974,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1155011,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1040280,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 871685,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 690147,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 678263,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 784219,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 630144,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 484955,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 333257,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 150971,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 39504,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 6509,
+     "symbol": null
+    }
+   }
+  },
+  "14000": {
+   "name": "神奈川県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 331247,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 368835,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 385681,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 411249,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 487436,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 478372,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 492072,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 558799,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 640821,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 769873,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 710551,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 593812,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 485933,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 509399,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 597514,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 484661,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 355718,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 227682,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 102141,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 27017,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 4446,
+     "symbol": null
+    }
+   }
+  },
+  "15000": {
+   "name": "新潟県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 71014,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 84737,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 91729,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 95565,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 85246,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 88454,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 102530,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 119188,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 140684,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 155676,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 140685,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 137900,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 144989,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 168337,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 175311,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 126620,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 107739,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 80491,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 42832,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 12549,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 2056,
+     "symbol": null
+    }
+   }
+  },
+  "16000": {
+   "name": "富山県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 33851,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 38511,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 42815,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 45195,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 42235,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 43502,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 46629,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 53756,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 65466,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 80645,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 67192,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 62119,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 61313,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 70973,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 87909,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 64667,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 48126,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 36085,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 18863,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 5491,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 894,
+     "symbol": null
+    }
+   }
+  },
+  "17000": {
+   "name": "石川県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 40920,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 46450,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 49726,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 54721,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 55044,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 50229,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 53930,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 60609,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 72852,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 87548,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 73067,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 67255,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 66128,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 73346,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 90196,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 64667,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 46432,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 34626,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 18202,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 5269,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 922,
+     "symbol": null
+    }
+   }
+  },
+  "18000": {
+   "name": "福井県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 28033,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 32208,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 35303,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 35201,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 31770,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 33774,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 37333,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 41727,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 48168,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 55506,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 47970,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 48332,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 48203,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 53020,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 58338,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 42934,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 33678,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 26165,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 13919,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 3992,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 638,
+     "symbol": null
+    }
+   }
+  },
+  "19000": {
+   "name": "山梨県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 26992,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 30718,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 33919,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 38966,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 35654,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 33762,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 36423,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 41557,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 48494,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 58006,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 55685,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 53201,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 51885,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 56979,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 60154,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 46614,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 36102,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 26461,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 14382,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 4454,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 738,
+     "symbol": null
+    }
+   }
+  },
+  "20000": {
+   "name": "長野県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 69990,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 82204,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 90679,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 91524,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 76757,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 83074,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 91941,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 105941,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 129673,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 151088,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 135556,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 127368,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 125507,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 139244,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 155625,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 124017,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 96878,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 74011,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 42621,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 12609,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1937,
+     "symbol": null
+    }
+   }
+  },
+  "21000": {
+   "name": "岐阜県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 68460,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 82403,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 89657,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 94220,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 87552,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 82970,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 91668,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 105320,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 123910,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 148261,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 129691,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 123121,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 118502,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 133167,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 153050,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 116958,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 89549,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 61399,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 30160,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 8212,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1256,
+     "symbol": null
+    }
+   }
+  },
+  "22000": {
+   "name": "静岡県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 126776,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 149854,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 162093,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 162595,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 148873,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 161615,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 180883,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 205905,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 234807,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 277723,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 247272,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 229010,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 222575,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 247803,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 274672,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 215529,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 162880,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 111038,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 54554,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 15412,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 2394,
+     "symbol": null
+    }
+   }
+  },
+  "23000": {
+   "name": "愛知県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 299823,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 330860,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 342959,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 354902,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 390194,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 400116,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 419095,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 457369,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 508725,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 605189,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 522755,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 454530,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 389838,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 414679,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 492110,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 392361,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 284700,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 178569,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 78625,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 20437,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 3122,
+     "symbol": null
+    }
+   }
+  },
+  "24000": {
+   "name": "三重県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 61203,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 71759,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 78128,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 80821,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 76762,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 78396,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 85359,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 95620,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 110992,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 133919,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 117395,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 112233,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 105555,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 116426,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 132144,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 103499,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 79163,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 55436,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 27035,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 7280,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1090,
+     "symbol": null
+    }
+   }
+  },
+  "25000": {
+   "name": "滋賀県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 56791,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 65794,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 68784,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 71350,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 71038,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 65262,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 73629,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 83451,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 95820,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 109147,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 91772,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 84212,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 79100,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 86496,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 96270,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 71197,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 51431,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 35795,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 18294,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 4994,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 834,
+     "symbol": null
+    }
+   }
+  },
+  "26000": {
+   "name": "京都府",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 87673,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 99422,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 106370,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 122742,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 143678,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 117557,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 123208,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 138716,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 163121,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 196687,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 171244,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 152683,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 137580,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 154044,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 195786,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 150774,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 109824,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 75481,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 36401,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 10291,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1892,
+     "symbol": null
+    }
+   }
+  },
+  "27000": {
+   "name": "大阪府",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 317414,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 345940,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 366145,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 400821,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 467195,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 457956,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 467024,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 501482,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 572362,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 711919,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 633679,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 538085,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 448981,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 499249,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 618732,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 511718,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 374409,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 230635,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 97857,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 25048,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 4075,
+     "symbol": null
+    }
+   }
+  },
+  "28000": {
+   "name": "兵庫県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 196475,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 225034,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 238696,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 249139,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 245645,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 234214,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 259573,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 297280,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 344704,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 421487,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 374245,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 338016,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 311560,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 343794,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 401579,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 314388,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 229724,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 158457,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 74751,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 20546,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 3304,
+     "symbol": null
+    }
+   }
+  },
+  "29000": {
+   "name": "奈良県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 44171,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 52647,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 57453,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 64063,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 61073,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 52802,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 58886,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 68162,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 80146,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 99480,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 89835,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 83444,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 79784,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 91941,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 107976,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 86203,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 61917,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 40576,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 19587,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 5517,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 859,
+     "symbol": null
+    }
+   }
+  },
+  "30000": {
+   "name": "和歌山県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 30472,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 36056,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 38832,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 39950,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 35094,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 36619,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 41696,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 47052,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 54339,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 67306,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 60797,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 60813,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 60038,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 66533,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 76291,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 60024,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 46020,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 33876,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 17231,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 4798,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 727,
+     "symbol": null
+    }
+   }
+  },
+  "31000": {
+   "name": "鳥取県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 20594,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 23406,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 24330,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 24950,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 21436,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 21942,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 25747,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 30788,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 34776,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 37993,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 32124,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 33348,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 36898,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 41737,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 42834,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 30543,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 25460,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 20602,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 11668,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 3582,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 620,
+     "symbol": null
+    }
+   }
+  },
+  "32000": {
+   "name": "島根県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 24396,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 28104,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 29141,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 29813,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 24179,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 26608,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 30254,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 35115,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 40509,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 44705,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 38319,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 39463,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 43691,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 50085,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 55306,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 39014,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 33545,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 28547,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 15600,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 4928,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 856,
+     "symbol": null
+    }
+   }
+  },
+  "33000": {
+   "name": "岡山県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 69216,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 78058,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 82078,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 88431,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 88060,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 83963,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 90593,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 101460,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 115167,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 136967,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 113152,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 105710,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 108891,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 119937,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 141395,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 109701,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 81421,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 62345,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 32270,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 9326,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1596,
+     "symbol": null
+    }
+   }
+  },
+  "34000": {
+   "name": "広島県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 105103,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 121639,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 125936,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 128376,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 127079,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 128946,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 140529,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 156431,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 179628,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 214946,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 181003,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 163281,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 159835,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 179410,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 210493,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 161842,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 116963,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 84035,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 43517,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 13372,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 2299,
+     "symbol": null
+    }
+   }
+  },
+  "35000": {
+   "name": "山口県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 44446,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 52581,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 56581,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 58552,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 53248,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 51771,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 58162,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 68616,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 80443,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 95557,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 81573,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 77754,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 84316,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 100105,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 116908,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 88192,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 68303,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 51618,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 25740,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 7787,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1304,
+     "symbol": null
+    }
+   }
+  },
+  "36000": {
+   "name": "徳島県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 22651,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 26431,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 28047,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 29342,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 26878,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 26312,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 31085,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 37203,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 42697,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 48856,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 42543,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 43262,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 47479,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 55523,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 60151,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 41978,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 34454,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 27334,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 14354,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 3973,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 579,
+     "symbol": null
+    }
+   }
+  },
+  "37000": {
+   "name": "香川県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 33402,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 38999,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 41356,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 42535,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 36475,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 39147,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 44731,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 51628,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 61339,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 70820,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 58415,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 54914,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 58052,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 65556,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 78076,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 54466,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 42435,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 32904,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 17334,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 4888,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 874,
+     "symbol": null
+    }
+   }
+  },
+  "38000": {
+   "name": "愛媛県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 43918,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 52904,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 56942,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 56405,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 48334,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 51731,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 59466,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 69877,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 81256,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 95072,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 81435,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 81987,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 86175,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 98259,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 109484,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 79503,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 63726,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 48480,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 26087,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 7489,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1251,
+     "symbol": null
+    }
+   }
+  },
+  "39000": {
+   "name": "高知県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 21909,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 25433,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 27604,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 29399,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 25018,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 24879,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 28514,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 35188,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 41790,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 48761,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 40994,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 42566,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 45091,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 51904,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 60090,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 44447,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 35104,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 28662,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 15893,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 4860,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 827,
+     "symbol": null
+    }
+   }
+  },
+  "40000": {
+   "name": "福岡県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 204888,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 227369,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 229922,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 236939,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 251264,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 243524,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 264980,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 305695,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 337699,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 368781,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 315729,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 291110,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 295632,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 336618,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 358807,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 259008,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 201229,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 143980,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 71329,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 20684,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 3487,
+     "symbol": null
+    }
+   }
+  },
+  "41000": {
+   "name": "佐賀県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 32102,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 36891,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 39248,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 39156,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 33443,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 33518,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 38254,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 45369,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 50188,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 52888,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 47794,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 49211,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 53758,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 61607,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 59209,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 42263,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 35660,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 27539,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 14736,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 4336,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 711,
+     "symbol": null
+    }
+   }
+  },
+  "42000": {
+   "name": "長崎県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 49118,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 56292,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 58893,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 57928,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 47667,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 50428,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 59347,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 69179,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 77086,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 86994,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 80890,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 84157,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 92401,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 105939,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 104328,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 73804,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 64209,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 48498,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 24853,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 7553,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1169,
+     "symbol": null
+    }
+   }
+  },
+  "43000": {
+   "name": "熊本県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 69041,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 78543,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 80782,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 79371,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 69827,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 71763,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 83016,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 97054,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 106373,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 112345,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 101844,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 106541,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 116064,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 129764,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 128314,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 92608,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 80999,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 63319,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 33610,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 10215,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1709,
+     "symbol": null
+    }
+   }
+  },
+  "44000": {
+   "name": "大分県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 39991,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 46097,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 49184,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 48706,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 42772,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 44004,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 50903,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 59886,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 69544,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 75712,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 65569,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 65956,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 73475,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 84717,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 91083,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 67123,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 54388,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 42173,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 22238,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 6473,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 997,
+     "symbol": null
+    }
+   }
+  },
+  "45000": {
+   "name": "宮崎県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 41185,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 48053,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 50535,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 47347,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 37831,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 40751,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 48204,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 58119,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 65901,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 69907,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 61273,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 65291,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 73631,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 83262,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 83797,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 59135,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 50866,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 39905,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 20653,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 5885,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1040,
+     "symbol": null
+    }
+   }
+  },
+  "46000": {
+   "name": "鹿児島県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 60923,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 71028,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 73430,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 69177,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 54238,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 58780,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 71089,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 85950,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 93195,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 97009,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 90651,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 98561,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 113544,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 126472,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 117065,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 83745,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 75138,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 59900,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 32155,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 9748,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1668,
+     "symbol": null
+    }
+   }
+  },
+  "47000": {
+   "name": "沖縄県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 77334,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 83417,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 82495,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 77793,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 70129,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 74283,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 83589,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 93102,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 97729,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 105634,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 91717,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 87414,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 89764,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 94371,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 74778,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 50952,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 48373,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 33465,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 16618,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 4970,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1181,
+     "symbol": null
+    }
+   }
+  },
+  "01000": {
+   "name": "北海道",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 162373,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 189483,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 203948,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 221229,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 220409,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 224130,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 247463,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 287154,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 336549,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 388162,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 345552,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 339699,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 335380,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 395875,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 419875,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 307446,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 247918,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 177368,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 87232,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 24417,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 3892,
+     "symbol": null
+    }
+   }
+  },
+  "02000": {
+   "name": "青森県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 37334,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 43520,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 48258,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 52090,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 43854,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 46128,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 53139,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 64849,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 75800,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 85326,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 81545,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 84210,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 89226,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 100699,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 101906,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 73871,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 62724,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 46710,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 21082,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 5237,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 714,
+     "symbol": null
+    }
+   }
+  },
+  "03000": {
+   "name": "岩手県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 37344,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 45091,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 50012,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 52453,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 43292,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 46745,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 53515,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 64409,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 74894,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 82138,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 76370,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 79659,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 85341,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 96055,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 94027,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 71267,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 63395,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 48415,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 23862,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 6411,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 927,
+     "symbol": null
+    }
+   }
+  },
+  "04000": {
+   "name": "宮城県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 79154,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 92066,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 97208,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 109137,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 112346,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 106679,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 120945,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 139891,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 156261,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 168990,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 146567,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 141164,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 144865,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 161459,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 157967,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 113819,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 93054,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 68330,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 33933,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 9089,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1333,
+     "symbol": null
+    }
+   }
+  },
+  "05000": {
+   "name": "秋田県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 25271,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 31304,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 36098,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 36339,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 29192,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 31955,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 38607,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 48498,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 58249,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 62497,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 58055,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 64453,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 72842,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 83852,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 84106,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 60499,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 56433,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 44247,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 22148,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 5547,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 736,
+     "symbol": null
+    }
+   }
+  },
+  "06000": {
+   "name": "山形県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 34298,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 40703,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 45085,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 46872,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 39731,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 41004,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 48830,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 57811,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 66197,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 69537,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 64132,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 68753,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 75952,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 85619,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 83299,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 60975,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 54853,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 43740,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 23774,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 6418,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 876,
+     "symbol": null
+    }
+   }
+  },
+  "07000": {
+   "name": "福島県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 60599,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 69700,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 75853,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 81180,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 69999,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 77439,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 87929,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 100339,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 113742,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 124300,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 113593,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 120442,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 131278,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 145331,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 136439,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 99105,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 83426,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 64493,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 33738,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 8984,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1309,
+     "symbol": null
+    }
+   }
+  },
+  "08000": {
+   "name": "茨城県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 96291,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 113607,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 123843,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 131147,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 126056,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 126797,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 142082,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 163540,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 186596,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 218014,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 190169,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 175479,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 178285,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 207763,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 217489,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 164977,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 119281,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 78424,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 39518,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 10849,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1606,
+     "symbol": null
+    }
+   }
+  },
+  "09000": {
+   "name": "栃木県",
+   "items": {
+    "A1201": {
+     "name": "0～4歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 66024,
+     "symbol": null
+    },
+    "A1202": {
+     "name": "5～9歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 77301,
+     "symbol": null
+    },
+    "A1203": {
+     "name": "10～14歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 84228,
+     "symbol": null
+    },
+    "A1204": {
+     "name": "15～19歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 87604,
+     "symbol": null
+    },
+    "A1205": {
+     "name": "20～24歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 81438,
+     "symbol": null
+    },
+    "A1206": {
+     "name": "25～29歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 87377,
+     "symbol": null
+    },
+    "A1207": {
+     "name": "30～34歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 98988,
+     "symbol": null
+    },
+    "A1208": {
+     "name": "35～39歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 113591,
+     "symbol": null
+    },
+    "A1209": {
+     "name": "40～44歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 129722,
+     "symbol": null
+    },
+    "A1210": {
+     "name": "45～49歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 147820,
+     "symbol": null
+    },
+    "A1211": {
+     "name": "50～54歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 127053,
+     "symbol": null
+    },
+    "A1212": {
+     "name": "55～59歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 118693,
+     "symbol": null
+    },
+    "A1213": {
+     "name": "60～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 123325,
+     "symbol": null
+    },
+    "A1214": {
+     "name": "65～69歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 141154,
+     "symbol": null
+    },
+    "A1215": {
+     "name": "70～74歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 145589,
+     "symbol": null
+    },
+    "A1216": {
+     "name": "75～79歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 103165,
+     "symbol": null
+    },
+    "A1217": {
+     "name": "80～84歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 75846,
+     "symbol": null
+    },
+    "A1218": {
+     "name": "85～89歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 52977,
+     "symbol": null
+    },
+    "A1219": {
+     "name": "90～94歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 27022,
+     "symbol": null
+    },
+    "A1220": {
+     "name": "95～99歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 7571,
+     "symbol": null
+    },
+    "A1221": {
+     "name": "100歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1057,
+     "symbol": null
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,1223 @@
+{
+ "key": "okinawa_municipal_age",
+ "label": "沖縄県市町村別3区分年齢",
+ "statsDataId": "0000020201",
+ "sourceUrl": "https://www.e-stat.go.jp/dbview?sid=0000020201",
+ "fetchedAt": "2026-10-14",
+ "statisticsName": "市区町村データ 基礎データ（廃置分合処理済）",
+ "title": "Ａ　人口・世帯",
+ "organization": "総務省",
+ "surveyDate": 0,
+ "updatedDate": "2026-06-19",
+ "notes": [
+  {
+   "char": "***",
+   "text": "調査又は集計していないもの"
+  },
+  {
+   "char": "-",
+   "text": "データが得られないもの"
+  },
+  {
+   "char": "X",
+   "text": "数値が秘匿されているもの"
+  }
+ ],
+ "rowCount": 1107,
+ "catOrder": [
+  "A1301",
+  "A1302",
+  "A1303"
+ ],
+ "areas": {
+  "47201": {
+   "name": "沖縄県 那覇市",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 46166,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 189536,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 72287,
+     "symbol": null
+    }
+   }
+  },
+  "47205": {
+   "name": "沖縄県 宜野湾市",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 16651,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 60492,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 18925,
+     "symbol": null
+    }
+   }
+  },
+  "47207": {
+   "name": "沖縄県 石垣市",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 8162,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 28172,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 10482,
+     "symbol": null
+    }
+   }
+  },
+  "47208": {
+   "name": "沖縄県 浦添市",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 19722,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 71286,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 23180,
+     "symbol": null
+    }
+   }
+  },
+  "47209": {
+   "name": "沖縄県 名護市",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 10536,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 37252,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 13901,
+     "symbol": null
+    }
+   }
+  },
+  "47210": {
+   "name": "沖縄県 糸満市",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 10960,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 36069,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 13522,
+     "symbol": null
+    }
+   }
+  },
+  "47211": {
+   "name": "沖縄県 沖縄市",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 23829,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 85673,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 28854,
+     "symbol": null
+    }
+   }
+  },
+  "47212": {
+   "name": "沖縄県 豊見城市",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 12526,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 38759,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 12729,
+     "symbol": null
+    }
+   }
+  },
+  "47213": {
+   "name": "沖縄県 うるま市",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 21184,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 75679,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 28050,
+     "symbol": null
+    }
+   }
+  },
+  "47214": {
+   "name": "沖縄県 宮古島市",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 8402,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 29513,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 14079,
+     "symbol": null
+    }
+   }
+  },
+  "47215": {
+   "name": "沖縄県 南城市",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 7734,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 24757,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 11409,
+     "symbol": null
+    }
+   }
+  },
+  "47301": {
+   "name": "沖縄県 国頭村",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 587,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 2380,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1550,
+     "symbol": null
+    }
+   }
+  },
+  "47302": {
+   "name": "沖縄県 大宜味村",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 351,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1594,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1146,
+     "symbol": null
+    }
+   }
+  },
+  "47303": {
+   "name": "沖縄県 東村",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 198,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 813,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 587,
+     "symbol": null
+    }
+   }
+  },
+  "47306": {
+   "name": "沖縄県 今帰仁村",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1335,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 4538,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 3019,
+     "symbol": null
+    }
+   }
+  },
+  "47308": {
+   "name": "沖縄県 本部町",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1796,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 6547,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 4107,
+     "symbol": null
+    }
+   }
+  },
+  "47311": {
+   "name": "沖縄県 恩納村",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1585,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 6663,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 2621,
+     "symbol": null
+    }
+   }
+  },
+  "47313": {
+   "name": "沖縄県 宜野座村",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1157,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 3179,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1491,
+     "symbol": null
+    }
+   }
+  },
+  "47314": {
+   "name": "沖縄県 金武町",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1874,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 5920,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 3006,
+     "symbol": null
+    }
+   }
+  },
+  "47315": {
+   "name": "沖縄県 伊江村",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 623,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 2071,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1424,
+     "symbol": null
+    }
+   }
+  },
+  "47324": {
+   "name": "沖縄県 読谷村",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 7073,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 24950,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 9050,
+     "symbol": null
+    }
+   }
+  },
+  "47325": {
+   "name": "沖縄県 嘉手納町",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 2307,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 7862,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 3273,
+     "symbol": null
+    }
+   }
+  },
+  "47326": {
+   "name": "沖縄県 北谷町",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 4780,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 16975,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 5765,
+     "symbol": null
+    }
+   }
+  },
+  "47327": {
+   "name": "沖縄県 北中城村",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 2973,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 10528,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 4294,
+     "symbol": null
+    }
+   }
+  },
+  "47328": {
+   "name": "沖縄県 中城村",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 3865,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 13021,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 4113,
+     "symbol": null
+    }
+   }
+  },
+  "47329": {
+   "name": "沖縄県 西原町",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 5637,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 21351,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 7514,
+     "symbol": null
+    }
+   }
+  },
+  "47348": {
+   "name": "沖縄県 与那原町",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 3750,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 11665,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 3902,
+     "symbol": null
+    }
+   }
+  },
+  "47350": {
+   "name": "沖縄県 南風原町",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 8161,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 24111,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 7862,
+     "symbol": null
+    }
+   }
+  },
+  "47353": {
+   "name": "沖縄県 渡嘉敷村",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 138,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 434,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 146,
+     "symbol": null
+    }
+   }
+  },
+  "47354": {
+   "name": "沖縄県 座間味村",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 160,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 545,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 187,
+     "symbol": null
+    }
+   }
+  },
+  "47355": {
+   "name": "沖縄県 粟国村",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 82,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 346,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 248,
+     "symbol": null
+    }
+   }
+  },
+  "47356": {
+   "name": "沖縄県 渡名喜村",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 29,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 174,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 143,
+     "symbol": null
+    }
+   }
+  },
+  "47357": {
+   "name": "沖縄県 南大東村",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 202,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 767,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 316,
+     "symbol": null
+    }
+   }
+  },
+  "47358": {
+   "name": "沖縄県 北大東村",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 98,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 365,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 127,
+     "symbol": null
+    }
+   }
+  },
+  "47359": {
+   "name": "沖縄県 伊平屋村",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 195,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 598,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 333,
+     "symbol": null
+    }
+   }
+  },
+  "47360": {
+   "name": "沖縄県 伊是名村",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 207,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 707,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 408,
+     "symbol": null
+    }
+   }
+  },
+  "47361": {
+   "name": "沖縄県 久米島町",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1075,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 3965,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 2145,
+     "symbol": null
+    }
+   }
+  },
+  "47362": {
+   "name": "沖縄県 八重瀬町",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 5977,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 17990,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 6925,
+     "symbol": null
+    }
+   }
+  },
+  "47375": {
+   "name": "沖縄県 多良間村",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 150,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 585,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 323,
+     "symbol": null
+    }
+   }
+  },
+  "47381": {
+   "name": "沖縄県 竹富町",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 707,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 2308,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 905,
+     "symbol": null
+    }
+   }
+  },
+  "47382": {
+   "name": "沖縄県 与那国町",
+   "items": {
+    "A1301": {
+     "name": "15歳未満人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 302,
+     "symbol": null
+    },
+    "A1302": {
+     "name": "15～64歳人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 1014,
+     "symbol": null
+    },
+    "A1303": {
+     "name": "65歳以上人口",
+     "unit": "人",
+     "time": "2020100000",
+     "timeLabel": "2020年度",
+     "value": 360,
+     "symbol": null
+    }
+   }
+  }
+ }
+}

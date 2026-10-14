@@ -1,0 +1,88 @@
+---
+import HpLayout from '../../layouts/HpLayout.astro';
+import { PREFS } from '../../lib/prefectures.js';
+import { loadDataset, pageStatus, show, table, hasAny, loadFacts, loadCommentary } from '../../lib/stats.js';
+
+const KEYS = ['population', 'establishments', 'income', 'leisure'];
+export function getStaticPaths() {
+  const sets = KEYS.map((k) => loadDataset(k));
+  const only = process.env.STATS_COMMENTED_ONLY === '1'; // 本番では解説文のある県だけ公開する設定
+  return PREFS.filter((p) => sets.some((ds) => hasAny(ds, p.code)) && (!only || loadCommentary(p.slug))).map((p) => ({ params: { pref: p.slug }, props: { p } }));
+}
+const { p } = Astro.props;
+const status = pageStatus();
+const noindex = status.noindex === 'all' || status.noindex.includes(p.slug);
+const TITLES = { population: '人口(5歳階級別)', establishments: '事業所数(民営・従業者規模別)', income: '収入', leisure: '余暇' };
+const sections = KEYS.map((k) => { const ds = loadDataset(k); return { key: k, title: TITLES[k], ds, rows: table(ds, p.code) }; }).filter((s) => s.rows);
+const popMax = Math.max(1, ...((sections.find((s) => s.key === 'population')?.rows ?? []).map((r) => r.value ?? 0)));
+const muni = p.code === '47000' ? loadDataset('okinawa_municipal_age') : null;
+const muniCodes = muni ? Object.keys(muni.areas) : [];
+const years = (rows) => [...new Set(rows.map((r) => r.timeLabel).filter(Boolean))].join('・') || '不明';
+const sources = [...sections.map((s) => ({ ds: s.ds, years: years(s.rows) })), ...(muni ? [{ ds: muni, years: years(muniCodes.flatMap((c) => Object.values(muni.areas[c].items))) }] : [])];
+const path = `/stats/${p.slug}/`;
+const facts = loadFacts(p.slug), com = loadCommentary(p.slug);
+const fm = Object.fromEntries((facts?.metrics ?? []).map((m) => [m.id, m]));
+const hl = (facts?.highlights ?? []).map((h) => ({ ...fm[h.id], direction: h.direction })).filter((h) => h.id);
+const fmt = (m, v) => (m.unit === '%' ? v + ' %' : v.toLocaleString('ja-JP') + (m.unit ? ' ' + m.unit : ''));
+const title = `${p.name}の企業のIT導入・業務効率化に役立つ統計データ|A-Zent`;
+const description = com?.summary ?? `${p.name}の人口(5歳階級別)、事業所数(民営・従業者規模別)、収入、余暇に関する公的統計を、出典付きでまとめています。`;
+const crumbs = [{ name: 'ホーム', path: '/' }, { name: '統計データ', path: '/stats/' }, { name: p.name, path }];
+const ld = sections.map((s) => ({ '@context': 'https://schema.org', '@type': 'Dataset', name: `${p.name}の${s.title}`, description: `${s.ds.statisticsName}(${s.ds.title})にもとづく、${p.name}の${s.title}。`, url: 'https://a-zent.com' + path, creator: { '@type': 'Organization', name: s.ds.organization || s.ds.statisticsName }, isBasedOn: s.ds.sourceUrl, dateModified: s.ds.fetchedAt }));
+---
+<HpLayout title={title} description={description} path={path} crumbs={crumbs} ld={ld} noindex={noindex}>
+<div class="pg old on" id={`p-stats-${p.slug}`}><div class="doc">
+<div class="crumb"><a href="/">ホーム</a> › <a href="/stats/">統計データ</a> › {p.name}</div>
+<h1>{p.name}の統計データ</h1>
+
+{com?.summary && <p>{com.summary}</p>}
+<p class="meta">データ取得日: {sources[0]?.ds.fetchedAt} / 作成: <a href="/about/">A-Zent</a></p>
+
+{hl.length > 0 && com && (
+  <>
+    <h2 id="business">データで見る{p.name}のビジネス環境</h2>
+    <table class="t"><tbody>
+      {hl.map((h) => (<tr><th>{h.label}</th><td>{fmt(h, h.value)}<br /><small>47都道府県の平均 {fmt(h, h.mean47)}、{h.rank}位(47県中)/ {h.direction}</small></td></tr>))}
+    </tbody></table>
+    <p class="meta">「平均」は、47都道府県の値の単純平均です(全国の合計値ではありません)。</p>
+    <h3>この数字から言えること</h3>
+    {(com.insights ?? []).map((t) => <p>{t}</p>)}
+  </>
+)}
+
+<h2 id="overview">概要</h2>
+<p>このページは、{p.name}に関する公的統計(e-Stat)を、出典を付けてまとめたものです。掲載している項目は、{sections.map((s) => s.title).join('・')}{muni ? '、市町村別の3区分年齢' : ''}です。</p>
+
+{sections.map((s) => (
+  <>
+    <h2 id={s.key}>{s.title}</h2>
+    <p style="font-size:.85rem;color:#7A7570">調査年: {years(s.rows)}</p>
+    <table class="t"><tbody>
+      {s.rows.map((r) => (
+        <tr><th>{r.name ?? r.code}</th><td>{show(r)}{s.key === 'population' && r.value != null && <span style={`display:block;height:6px;margin-top:6px;background:#E8302A;width:${Math.max(2, Math.round((r.value / popMax) * 100))}%`}></span>}</td></tr>
+      ))}
+    </tbody></table>
+  </>
+))}
+
+<h2 id="sources">出典・注記</h2>
+<ul>
+  {sources.map((s) => (
+    <li>{s.ds.statisticsName}「{s.ds.title}」(調査年: {s.years}、取得日: {s.ds.fetchedAt}) <a href={s.ds.sourceUrl} target="_blank" rel="noopener">出典(e-Stat)</a></li>
+  ))}
+</ul>
+<p style="font-size:.85rem;color:#7A7570">「非公表」は、統計表で秘匿・該当なし・不詳などの記号が付いている項目で、数値の推計はしていません。市町村合併や境界の変更などにより、年度間で単純に比較できない場合があります。</p>
+
+{muni && (
+  <>
+    <h2 id="municipal">市町村別 3区分年齢</h2>
+    <table class="t"><thead><tr><th>市町村</th>{Object.values(muni.areas[muniCodes[0]].items).map((it) => <th>{it.name}</th>)}</tr></thead>
+    <tbody>{muniCodes.map((c) => (<tr><th>{muni.areas[c].name}</th>{Object.values(muni.areas[c].items).map((it) => <td>{show(it)}</td>)}</tr>))}</tbody></table>
+  </>
+)}
+
+{(com?.faq ?? []).length > 0 && (<><h2 id="faq">{p.name}の企業さまからよくあるご相談</h2>{com.faq.map((x) => <details class="fq"><summary>{x.q}</summary><p>{x.a}</p></details>)}</>)}
+<h2 id="contact">事前相談のご案内</h2>
+<p>{p.name}で、業務効率化・DXの導入を検討している企業さま向けに、事前のご相談・ご意見を受け付けています。現在は準備中のため、契約の締結や有償サービスの提供は行っていません。</p>
+<p><a class="btn" href="/contact/">事前相談・ご意見を送る ▷</a></p>
+</div></div>
+</HpLayout>

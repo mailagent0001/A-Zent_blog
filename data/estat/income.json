@@ -1,0 +1,2528 @@
+{
+ "key": "income",
+ "label": "収入関連",
+ "statsDataId": "0000010112",
+ "sourceUrl": "https://www.e-stat.go.jp/dbview?sid=0000010112",
+ "fetchedAt": "2026-10-14",
+ "statisticsName": "都道府県データ 基礎データ",
+ "title": "Ｌ　家計",
+ "organization": "総務省",
+ "surveyDate": 0,
+ "updatedDate": "2026-06-30",
+ "notes": [
+  {
+   "char": "***",
+   "text": "調査又は集計していないもの"
+  },
+  {
+   "char": "-",
+   "text": "データが得られないもの"
+  },
+  {
+   "char": "X",
+   "text": "数値が秘匿されているもの"
+  }
+ ],
+ "rowCount": 282,
+ "catOrder": [
+  "L7610",
+  "L7611",
+  "L761101",
+  "L761102",
+  "L761103",
+  "L7612"
+ ],
+ "areas": {
+  "10000": {
+   "name": "群馬県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5595,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3658,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2586,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 569,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 503,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 718,
+     "symbol": null
+    }
+   }
+  },
+  "11000": {
+   "name": "埼玉県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5886,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4147,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3187,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 560,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 400,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 565,
+     "symbol": null
+    }
+   }
+  },
+  "12000": {
+   "name": "千葉県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5952,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4252,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3319,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 540,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 393,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 509,
+     "symbol": null
+    }
+   }
+  },
+  "13000": {
+   "name": "東京都",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 6211,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4345,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3520,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 581,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 243,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 901,
+     "symbol": null
+    }
+   }
+  },
+  "14000": {
+   "name": "神奈川県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 6220,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4497,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3631,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 535,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 331,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 586,
+     "symbol": null
+    }
+   }
+  },
+  "15000": {
+   "name": "新潟県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5563,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3680,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2296,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 645,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 739,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 500,
+     "symbol": null
+    }
+   }
+  },
+  "16000": {
+   "name": "富山県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 6131,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4138,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2555,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 759,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 824,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 498,
+     "symbol": null
+    }
+   }
+  },
+  "17000": {
+   "name": "石川県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5704,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3975,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2659,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 671,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 645,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 491,
+     "symbol": null
+    }
+   }
+  },
+  "18000": {
+   "name": "福井県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 6104,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4085,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2549,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 663,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 873,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 631,
+     "symbol": null
+    }
+   }
+  },
+  "19000": {
+   "name": "山梨県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5374,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3386,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2286,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 558,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 542,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 769,
+     "symbol": null
+    }
+   }
+  },
+  "20000": {
+   "name": "長野県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5637,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3667,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2490,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 619,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 558,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 593,
+     "symbol": null
+    }
+   }
+  },
+  "21000": {
+   "name": "岐阜県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 6054,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3925,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2680,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 608,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 636,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 719,
+     "symbol": null
+    }
+   }
+  },
+  "22000": {
+   "name": "静岡県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5912,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3860,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2744,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 580,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 535,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 739,
+     "symbol": null
+    }
+   }
+  },
+  "23000": {
+   "name": "愛知県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 6125,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4366,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3379,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 551,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 436,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 600,
+     "symbol": null
+    }
+   }
+  },
+  "24000": {
+   "name": "三重県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5945,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4013,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2930,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 562,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 521,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 594,
+     "symbol": null
+    }
+   }
+  },
+  "25000": {
+   "name": "滋賀県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 6088,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4411,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3213,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 660,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 538,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 483,
+     "symbol": null
+    }
+   }
+  },
+  "26000": {
+   "name": "京都府",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5316,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3564,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2763,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 514,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 287,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 536,
+     "symbol": null
+    }
+   }
+  },
+  "27000": {
+   "name": "大阪府",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5022,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3335,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2641,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 399,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 294,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 547,
+     "symbol": null
+    }
+   }
+  },
+  "28000": {
+   "name": "兵庫県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5584,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3823,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2971,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 517,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 335,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 465,
+     "symbol": null
+    }
+   }
+  },
+  "29000": {
+   "name": "奈良県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5452,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3548,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2663,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 436,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 449,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 484,
+     "symbol": null
+    }
+   }
+  },
+  "30000": {
+   "name": "和歌山県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4796,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2848,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2032,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 444,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 373,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 664,
+     "symbol": null
+    }
+   }
+  },
+  "31000": {
+   "name": "鳥取県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5389,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3402,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2168,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 639,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 595,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 633,
+     "symbol": null
+    }
+   }
+  },
+  "32000": {
+   "name": "島根県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5655,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3603,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2234,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 765,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 604,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 605,
+     "symbol": null
+    }
+   }
+  },
+  "33000": {
+   "name": "岡山県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5729,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3913,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2759,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 561,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 593,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 537,
+     "symbol": null
+    }
+   }
+  },
+  "34000": {
+   "name": "広島県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5323,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3593,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2641,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 578,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 374,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 472,
+     "symbol": null
+    }
+   }
+  },
+  "35000": {
+   "name": "山口県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4956,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3134,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2292,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 490,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 352,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 450,
+     "symbol": null
+    }
+   }
+  },
+  "36000": {
+   "name": "徳島県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4990,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3090,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2030,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 627,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 433,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 610,
+     "symbol": null
+    }
+   }
+  },
+  "37000": {
+   "name": "香川県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5348,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3574,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2557,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 577,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 439,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 483,
+     "symbol": null
+    }
+   }
+  },
+  "38000": {
+   "name": "愛媛県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4846,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2950,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2119,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 491,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 340,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 685,
+     "symbol": null
+    }
+   }
+  },
+  "39000": {
+   "name": "高知県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4474,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2691,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 1891,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 529,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 271,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 569,
+     "symbol": null
+    }
+   }
+  },
+  "40000": {
+   "name": "福岡県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4849,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3319,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2542,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 452,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 325,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 398,
+     "symbol": null
+    }
+   }
+  },
+  "41000": {
+   "name": "佐賀県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5447,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3487,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2227,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 542,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 717,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 681,
+     "symbol": null
+    }
+   }
+  },
+  "42000": {
+   "name": "長崎県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4749,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2992,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2092,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 551,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 349,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 495,
+     "symbol": null
+    }
+   }
+  },
+  "43000": {
+   "name": "熊本県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5026,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3174,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2207,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 511,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 455,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 623,
+     "symbol": null
+    }
+   }
+  },
+  "44000": {
+   "name": "大分県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4701,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3019,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2235,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 475,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 310,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 447,
+     "symbol": null
+    }
+   }
+  },
+  "45000": {
+   "name": "宮崎県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4658,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2945,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2099,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 550,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 296,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 528,
+     "symbol": null
+    }
+   }
+  },
+  "46000": {
+   "name": "鹿児島県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4300,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2778,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2077,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 468,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 233,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 411,
+     "symbol": null
+    }
+   }
+  },
+  "47000": {
+   "name": "沖縄県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4215,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2859,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2075,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 487,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 297,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 528,
+     "symbol": null
+    }
+   }
+  },
+  "01000": {
+   "name": "北海道",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4488,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2983,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2357,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 433,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 193,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 414,
+     "symbol": null
+    }
+   }
+  },
+  "02000": {
+   "name": "青森県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4952,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3135,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2059,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 517,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 560,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 636,
+     "symbol": null
+    }
+   }
+  },
+  "03000": {
+   "name": "岩手県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5282,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3357,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2176,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 577,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 604,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 567,
+     "symbol": null
+    }
+   }
+  },
+  "04000": {
+   "name": "宮城県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5702,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3798,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2716,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 557,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 524,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 573,
+     "symbol": null
+    }
+   }
+  },
+  "05000": {
+   "name": "秋田県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5274,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3233,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 1969,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 554,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 710,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 594,
+     "symbol": null
+    }
+   }
+  },
+  "06000": {
+   "name": "山形県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5856,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3774,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2195,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 775,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 803,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 622,
+     "symbol": null
+    }
+   }
+  },
+  "07000": {
+   "name": "福島県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5397,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 3420,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2297,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 567,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 556,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 678,
+     "symbol": null
+    }
+   }
+  },
+  "08000": {
+   "name": "茨城県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5956,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4080,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2893,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 617,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 570,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 636,
+     "symbol": null
+    }
+   }
+  },
+  "09000": {
+   "name": "栃木県",
+   "items": {
+    "L7610": {
+     "name": "年間収入",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 5828,
+     "symbol": null
+    },
+    "L7611": {
+     "name": "勤め先収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 4015,
+     "symbol": null
+    },
+    "L761101": {
+     "name": "世帯主収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 2842,
+     "symbol": null
+    },
+    "L761102": {
+     "name": "世帯主の配偶者の収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 629,
+     "symbol": null
+    },
+    "L761103": {
+     "name": "他の世帯員収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 544,
+     "symbol": null
+    },
+    "L7612": {
+     "name": "事業・内職収入（年間収入）",
+     "unit": "千円",
+     "time": "2019100000",
+     "timeLabel": "2019年度",
+     "value": 674,
+     "symbol": null
+    }
+   }
+  }
+ }
+}
