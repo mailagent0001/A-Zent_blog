@@ -1,16 +1,18 @@
 ---
 import HpLayout from '../../layouts/HpLayout.astro';
 import { PREFS } from '../../lib/prefectures.js';
+import { BLOCKS } from '../../lib/blocks.js';
 import { loadDataset, pageStatus, show, table, hasAny, loadFacts, loadCommentary } from '../../lib/stats.js';
 
 const KEYS = ['population', 'establishments', 'income', 'leisure'];
 export function getStaticPaths() {
-  const KEYS = ['population', 'establishments', 'income', 'leisure'];
+  const KEYS = ['population', 'establishments', 'income', 'leisure']; // getStaticPaths は外の変数を使えないため、ここで定義する
   const sets = KEYS.map((k) => loadDataset(k));
   const only = process.env.STATS_COMMENTED_ONLY === '1'; // 本番では解説文のある県だけ公開する設定
   return PREFS.filter((p) => sets.some((ds) => hasAny(ds, p.code)) && (!only || loadCommentary(p.slug))).map((p) => ({ params: { pref: p.slug }, props: { p } }));
 }
 const { p } = Astro.props;
+const blk = BLOCKS.find((b) => b.prefs.includes(p.slug));
 const status = pageStatus();
 const noindex = status.noindex === 'all' || status.noindex.includes(p.slug);
 const TITLES = { population: '人口(5歳階級別)', establishments: '事業所数(民営・従業者規模別)', income: '収入', leisure: '余暇' };
@@ -36,6 +38,7 @@ const ld = sections.map((s) => ({ '@context': 'https://schema.org', '@type': 'Da
 <h1>{p.name}の統計データ</h1>
 
 {com?.summary && <p>{com.summary}</p>}
+{blk && <p class="meta">同じ地域の都道府県との比較: <a href={`/stats/region/${blk.slug}/`}>{blk.name}</a></p>}
 <p class="meta">データ取得日: {sources[0]?.ds.fetchedAt} / 作成: <a href="/about/">A-Zent</a></p>
 
 {hl.length > 0 && com && (

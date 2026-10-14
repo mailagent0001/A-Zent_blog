@@ -24,3 +24,9 @@ export function hasAny(ds, code) { const t = table(ds, code); return !!t && t.so
 export function loadJson(rel) { const f = join(root, rel); return existsSync(f) ? JSON.parse(readFileSync(f, 'utf8')) : null; }
 export const loadFacts = (slug) => loadJson(`data/facts/${slug}.json`);
 export const loadCommentary = (slug) => loadJson(`data/commentary/${slug}.json`);
+// 本番(STATS_COMMENTED_ONLY=1)では、解説文のある県だけをページとして公開する
+export function prefPublished(slug) {
+  if (!loadFacts(slug)) return false;
+  return process.env.STATS_COMMENTED_ONLY === '1' ? !!loadCommentary(slug) : true;
+}
+export const metricOf = (facts, id) => facts?.metrics?.find((m) => m.id === id) ?? null;

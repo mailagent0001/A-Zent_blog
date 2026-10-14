@@ -14,7 +14,7 @@ for (const p of PREFS) {
     for (const i of items) add(`${k}:${i.c}`, i.name, i.value, i.unit, k === 'income' || k === 'leisure' ? 'value' : 'count', i.timeLabel);
     if ((k === 'establishments' || k === 'population') && all) {
       const tot = items.reduce((s, i) => s + i.value, 0);
-      add(`${k}:total`, k === 'population' ? '人口(5歳階級の合計)' : '事業所数(民営・規模別の合計)', tot, '事業所', 'total', items[0].timeLabel);
+      add(`${k}:total`, k === 'population' ? '人口(5歳階級の合計)' : '事業所数(民営・規模別の合計)', tot, k === 'population' ? '人' : '事業所', 'total', items[0].timeLabel);
       for (const i of items) add(`${k}:share:${i.c}`, `${i.name}の割合`, r1((i.value / tot) * 100), '%', 'share', i.timeLabel);
       if (k === 'population') {
         const band = (f) => items.filter((i) => { const n = parseInt((i.name.match(/\d+/) || [''])[0], 10); return Number.isFinite(n) && f(n); }).reduce((s, i) => s + i.value, 0);
@@ -40,8 +40,10 @@ mkdirSync('data/facts', { recursive: true });
 for (const p of PREFS) {
   const m = per[p.slug]; if (!Object.keys(m).length) continue;
   const metrics = Object.values(m).map((x) => { const s = stat[x.id]; return { ...x, mean47: r1(s.mean), ratio: s.mean ? Math.round((x.value / s.mean) * 100) / 100 : null, rank: s.rank[p.slug], of: s.n }; });
-  const cand = metrics.filter((x) => (x.kind === 'share' || x.kind === 'value') && x.of >= 40 && x.ratio);
-  const highlights = cand.sort((a, b) => Math.abs(Math.log(b.ratio)) - Math.abs(Math.log(a.ratio))).slice(0, 3).map((x) => ({ id: x.id, direction: x.ratio >= 1 ? '平均より高い' : '平均より低い' }));
+  // 特徴の選び方: 人口(3区分)・事業所(規模別の割合)・収入・余暇(10分以上)から、平均との差が最も大きい項目を1つずつ選ぶ
+  const groups = [(x) => x.id.startsWith('population:band:'), (x) => x.id.startsWith('establishments:share:'), (x) => ['income:L7610', 'income:L7611', 'income:L7612'].includes(x.id), (x) => x.dataset === 'leisure' && x.value >= 10];
+  const dev = (x) => Math.abs(Math.log(x.ratio));
+  const highlights = groups.map((g) => metrics.filter((x) => g(x) && x.of >= 40 && x.ratio).sort((a, b) => dev(b) - dev(a))[0]).filter(Boolean).sort((a, b) => dev(b) - dev(a)).map((x) => ({ id: x.id, direction: x.ratio >= 1 ? '平均より高い' : '平均より低い' }));
   writeFileSync(`data/facts/${p.slug}.json`, JSON.stringify({ slug: p.slug, name: p.name, note: 'mean47=47都道府県の単純平均(全国値ではない)', highlights, metrics }, null, 1));
 }
 console.log('facts を作成しました(data/facts/)');

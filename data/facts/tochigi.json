@@ -4,15 +4,19 @@
  "note": "mean47=47都道府県の単純平均(全国値ではない)",
  "highlights": [
   {
-   "id": "leisure:M370200",
-   "direction": "平均より低い"
-  },
-  {
    "id": "leisure:M390200",
    "direction": "平均より高い"
   },
   {
-   "id": "leisure:M380100",
+   "id": "income:L7612",
+   "direction": "平均より高い"
+  },
+  {
+   "id": "establishments:share:C210805",
+   "direction": "平均より高い"
+  },
+  {
+   "id": "population:band:elderly",
    "direction": "平均より低い"
   }
  ],
@@ -294,7 +298,7 @@
    "id": "population:total",
    "label": "人口(5歳階級の合計)",
    "value": 1897545,
-   "unit": "事業所",
+   "unit": "人",
    "kind": "total",
    "year": "2020年度",
    "dataset": "population",

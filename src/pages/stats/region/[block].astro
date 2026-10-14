@@ -1,0 +1,48 @@
+---
+import HpLayout from '../../../layouts/HpLayout.astro';
+import { PREFS } from '../../../lib/prefectures.js';
+import { BLOCKS } from '../../../lib/blocks.js';
+import { loadFacts, prefPublished, metricOf } from '../../../lib/stats.js';
+
+export function getStaticPaths() {
+  return BLOCKS.filter((b) => b.prefs.some((s) => prefPublished(s))).map((b) => ({ params: { block: b.slug }, props: { b } }));
+}
+const { b } = Astro.props;
+const COLS = [
+  { id: 'population:total', label: '人口' },
+  { id: 'population:band:young', label: '15歳未満の割合', pct: true },
+  { id: 'population:band:elderly', label: '65歳以上の割合', pct: true },
+  { id: 'establishments:total', label: '事業所数(民営)' },
+  { id: 'establishments:share:C210801', label: '従業者1～4人の事業所の割合', pct: true },
+  { id: 'income:L7610', label: '年間収入' },
+];
+const name = (s) => PREFS.find((p) => p.slug === s)?.name ?? s;
+const rows = b.prefs.map((s) => { const f = loadFacts(s); return { slug: s, name: name(s), pub: prefPublished(s), cells: COLS.map((c) => metricOf(f, c.id)) }; });
+const fmt = (m) => (m ? (m.unit === '%' ? m.value + ' %' : m.value.toLocaleString('ja-JP') + (m.unit ? ' ' + m.unit : '')) : '非公表');
+// 「ブロック内で最も高い・低い県」を、データから自動で文章にする(数字は表の値のまま)
+const facts = COLS.map((c, i) => c.pct ? { c, vals: rows.filter((r) => r.cells[i]).map((r) => ({ n: r.name, m: r.cells[i] })) } : null).filter((x) => x && x.vals.length > 1).map(({ c, vals }) => {
+  const hi = [...vals].sort((a, z) => z.m.value - a.m.value)[0], lo = [...vals].sort((a, z) => a.m.value - z.m.value)[0];
+  return `${c.label}は、${b.name}の中では、${hi.n}が最も高く(${fmt(hi.m)})、${lo.n}が最も低く(${fmt(lo.m)})なっています。`;
+});
+const years = COLS.map((c, i) => { const y = [...new Set(rows.map((r) => r.cells[i]?.year).filter(Boolean))].join('・'); return y ? `${c.label}: ${y}` : null; }).filter(Boolean);
+const path = `/stats/region/${b.slug}/`;
+const title = `${b.name}の都道府県別 人口・事業所・収入の比較|A-Zent`;
+const description = `${b.name}の都道府県について、人口、事業所数、収入などの公的統計を、一つの表で比較できるようにまとめています。`;
+const crumbs = [{ name: 'ホーム', path: '/' }, { name: '統計データ', path: '/stats/' }, { name: b.name, path }];
+const noindex = !b.prefs.every((s) => loadFacts(s));
+---
+<HpLayout title={title} description={description} path={path} crumbs={crumbs} noindex={noindex}>
+<div class="pg old on" id={`p-region-${b.slug}`}><div class="doc">
+<div class="crumb"><a href="/">ホーム</a> › <a href="/stats/">統計データ</a> › {b.name}</div>
+<h1>{b.name}の都道府県別データ比較</h1>
+<p>{b.name}の都道府県について、人口・事業所数・収入の公的統計(e-Stat)を、一つの表で比べられるようにまとめています。県の名前を押すと、その県の詳しいページに移ります。</p>
+<h2>都道府県ごとの比較</h2>
+<div style="overflow-x:auto"><table class="t"><thead><tr><th>都道府県</th>{COLS.map((c) => <th>{c.label}</th>)}</tr></thead>
+<tbody>{rows.map((r) => (<tr><th>{r.pub ? <a href={`/stats/${r.slug}/`}>{r.name}</a> : r.name}</th>{r.cells.map((m) => <td>{fmt(m)}</td>)}</tr>))}</tbody></table></div>
+<p class="meta">調査年: {years.join(' / ')}</p>
+{facts.length > 0 && (<><h2>表から分かること</h2>{facts.map((t) => <p>{t}</p>)}<p class="meta">上の文章は、表の数字から自動で作成しています。</p></>)}
+<h2>出典・注記</h2>
+<p style="font-size:.85rem;color:#7A7570">出典: e-Stat(政府統計の総合窓口)「社会・人口統計体系」。各県のページに、統計名・調査年・取得日・出典URLを載せています。「非公表」は、統計表で秘匿・該当なし・不詳などの記号が付いている項目で、数値の推計はしていません。調査年は項目ごとに異なります。</p>
+<p><a class="btn" href="/contact/">事前相談・ご意見を送る ▷</a></p>
+</div></div>
+</HpLayout>

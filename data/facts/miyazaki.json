@@ -8,12 +8,16 @@
    "direction": "平均より低い"
   },
   {
-   "id": "income:L761103",
+   "id": "leisure:M350200",
    "direction": "平均より低い"
   },
   {
-   "id": "leisure:M370100",
+   "id": "income:L7611",
    "direction": "平均より低い"
+  },
+  {
+   "id": "population:band:young",
+   "direction": "平均より高い"
   }
  ],
  "metrics": [
@@ -294,7 +298,7 @@
    "id": "population:total",
    "label": "人口(5歳階級の合計)",
    "value": 1052571,
-   "unit": "事業所",
+   "unit": "人",
    "kind": "total",
    "year": "2020年度",
    "dataset": "population",

@@ -8,6 +8,7 @@ for (const f of files) {
   const fp = `data/facts/${slug}.json`; if (!existsSync(fp)) { console.log(`NG ${slug}: facts がありません`); bad++; continue; }
   const facts = JSON.parse(readFileSync(fp, 'utf8')), ok = new Set();
   for (const m of facts.metrics) for (const v of [m.value, m.mean47, m.ratio, m.rank, m.of]) if (v != null) { ok.add(String(v)); ok.add(String(Math.round(v))); ok.add(Number(v).toLocaleString('ja-JP')); ok.add((Math.round(v * 10) / 10).toFixed(1)); }
+  for (const m of facts.metrics) for (const y of [...String(m.year ?? '').match(/\d+/g) || [], ...String(m.label ?? '').match(/\d+/g) || []]) ok.add(y); // 調査年(2020など)と、区分の名前に含まれる数字(1～4人など)は書いてよい
   const text = [c.summary, ...(c.insights || []), ...(c.faq || []).flatMap((x) => [x.q, x.a])].join('\n'); texts[slug] = text;
   const nums = (text.match(/\d[\d,]*(\.\d+)?/g) || []).map((s) => s.replace(/,/g, '')).filter((s) => !['47', '15', '64', '65'].includes(s));
   const unknown = [...new Set(nums.filter((n) => ![...ok].some((o) => o.replace(/,/g, '') === n)))];
