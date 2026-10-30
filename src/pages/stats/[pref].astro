@@ -30,7 +30,7 @@ const fmt = (m, v) => (m.unit === '%' ? v + ' %' : v.toLocaleString('ja-JP') + (
 const title = `${p.name}の企業のIT導入・業務効率化に役立つ統計データ|A-Zent`;
 const description = com?.summary ?? `${p.name}の人口(5歳階級別)、事業所数(民営・従業者規模別)、収入、余暇に関する公的統計を、出典付きでまとめています。`;
 const crumbs = [{ name: 'ホーム', path: '/' }, { name: '統計データ', path: '/stats/' }, { name: p.name, path }];
-const ld = sections.map((s) => ({ '@context': 'https://schema.org', '@type': 'Dataset', name: `${p.name}の${s.title}`, description: `${s.ds.statisticsName}(${s.ds.title})にもとづく、${p.name}の${s.title}。`, url: 'https://a-zent.com' + path, creator: { '@type': 'Organization', name: s.ds.organization || s.ds.statisticsName }, isBasedOn: s.ds.sourceUrl, dateModified: s.ds.fetchedAt }));
+const ld = sections.map((s) => ({ '@context': 'https://schema.org', '@type': 'Dataset', name: `${p.name}の${s.title}`, description: `${s.ds.statisticsName}「${s.ds.title}」(調査年: ${years(s.rows)})にもとづく、${p.name}の${s.title}を、出典(e-Stat)付きでまとめています。`, url: 'https://a-zent.com' + path, creator: { '@type': 'Organization', name: s.ds.organization || s.ds.statisticsName }, isBasedOn: s.ds.sourceUrl, dateModified: s.ds.fetchedAt }));
 ---
 <HpLayout title={title} description={description} path={path} crumbs={crumbs} ld={ld} noindex={noindex}>
 <div class="pg old on" id={`p-stats-${p.slug}`}><div class="doc">
