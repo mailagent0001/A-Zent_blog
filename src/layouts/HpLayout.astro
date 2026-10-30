@@ -2,9 +2,10 @@
 import '../styles/hp.css';
 import Header from '../components/hp/Header.astro';
 import Footer from '../components/hp/Footer.astro';
-const { title, description, path = '/', noindex = false, crumbs = [], ld = [] } = Astro.props;
+const { title, description, path = '/', noindex = false, crumbs = [], ld = [], ogImage = null } = Astro.props;
 const base = 'https://a-zent.com';
 const url = base + path;
+const og = ogImage ? new URL(ogImage, Astro.url).href : base + '/og-image.png';
 const bc = crumbs.length ? { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: base + c.path })) } : null;
 const all = [...ld, ...(bc ? [bc] : [])];
 ---
@@ -23,9 +24,16 @@ const all = [...ld, ...(bc ? [bc] : [])];
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:url" content={url} />
-<meta property="og:image" content="https://a-zent.com/og-image.png" />
+<meta property="og:image" content={og} />
+<link rel="icon" href="/favicon.ico" sizes="48x48" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://a-zent.com/og-image.png" />
+<meta name="twitter:image" content={og} />
+<link rel="alternate" type="application/rss+xml" title="A-Zent コラム" href="/rss.xml" />
+<link rel="sitemap" href="/sitemap-index.xml" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K6YB5FJXRX"></script>
+<script is:inline>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-K6YB5FJXRX');</script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;600&display=swap" rel="stylesheet">
 {all.map((x) => <script type="application/ld+json" set:html={JSON.stringify(x)} />)}
 </head>

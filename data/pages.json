@@ -1,0 +1,333 @@
+{
+ "generatedAt": "2026-10-30",
+ "noindex": [
+  "hokkaido",
+  "aomori",
+  "iwate",
+  "miyagi",
+  "akita",
+  "yamagata",
+  "fukushima",
+  "ibaraki",
+  "tochigi",
+  "gunma",
+  "saitama",
+  "chiba",
+  "tokyo",
+  "kanagawa",
+  "niigata",
+  "toyama",
+  "ishikawa",
+  "fukui",
+  "yamanashi",
+  "nagano",
+  "gifu",
+  "shizuoka",
+  "aichi",
+  "mie",
+  "shiga",
+  "kyoto",
+  "osaka",
+  "hyogo",
+  "nara",
+  "wakayama",
+  "tottori",
+  "shimane",
+  "okayama",
+  "hiroshima",
+  "yamaguchi",
+  "tokushima",
+  "kagawa",
+  "ehime",
+  "kochi",
+  "fukuoka",
+  "saga",
+  "nagasaki",
+  "kumamoto",
+  "oita",
+  "miyazaki",
+  "kagoshima"
+ ],
+ "pages": {
+  "hokkaido": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "aomori": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "iwate": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "miyagi": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "akita": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "yamagata": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "fukushima": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "ibaraki": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "tochigi": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "gunma": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "saitama": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "chiba": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "tokyo": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "kanagawa": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "niigata": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "toyama": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "ishikawa": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "fukui": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "yamanashi": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "nagano": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "gifu": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "shizuoka": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "aichi": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "mie": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "shiga": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "kyoto": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "osaka": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "hyogo": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "nara": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "wakayama": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "tottori": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "shimane": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "okayama": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "hiroshima": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "yamaguchi": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "tokushima": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "kagawa": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "ehime": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "kochi": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "fukuoka": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "saga": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "nagasaki": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "kumamoto": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "oita": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "miyazaki": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "kagoshima": {
+   "complete": false,
+   "reasons": [
+    "解説文(data/commentary)なし"
+   ]
+  },
+  "okinawa": {
+   "complete": true,
+   "reasons": []
+  }
+ }
+}

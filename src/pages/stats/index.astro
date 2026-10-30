@@ -1,0 +1,22 @@
+---
+import HpLayout from '../../layouts/HpLayout.astro';
+import { PREFS } from '../../lib/prefectures.js';
+import { BLOCKS } from '../../lib/blocks.js';
+import { loadDataset, hasAny, loadCommentary, prefPublished } from '../../lib/stats.js';
+const sets = ['population', 'establishments', 'income', 'leisure'].map((k) => loadDataset(k));
+const only = process.env.STATS_COMMENTED_ONLY === '1';
+const list = PREFS.filter((p) => sets.some((ds) => hasAny(ds, p.code)) && (!only || loadCommentary(p.slug)));
+const blocks = BLOCKS.filter((b) => b.prefs.some((x) => prefPublished(x)));
+const title = '都道府県別の統計データ|A-Zent';
+const description = '都道府県ごとの人口・事業所・収入・余暇に関する公的統計を、出典付きでまとめています。';
+const crumbs = [{ name: 'ホーム', path: '/' }, { name: '統計データ', path: '/stats/' }];
+---
+<HpLayout title={title} description={description} path="/stats/" crumbs={crumbs} noindex={list.length === 0}>
+<div class="pg old on" id="p-stats"><div class="doc">
+<div class="crumb"><a href="/">ホーム</a> › 統計データ</div>
+<h1>都道府県別の統計データ</h1>
+<p>公的統計(e-Stat)をもとに、都道府県ごとの人口・事業所・収入・余暇を、出典付きでまとめています。</p>
+{blocks.length > 0 && (<><h2>地域ごとの比較</h2><ul>{blocks.map((b) => <li><a href={`/stats/region/${b.slug}/`}>{b.name}</a></li>)}</ul><h2>都道府県</h2></>)}
+{list.length === 0 ? <p>現在、準備中です。</p> : <ul>{list.map((p) => <li><a href={`/stats/${p.slug}/`}>{p.name}</a></li>)}</ul>}
+</div></div>
+</HpLayout>
