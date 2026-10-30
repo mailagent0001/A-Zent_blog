@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-14",
+ "generatedAt": "2026-10-30",
  "noindex": [
   "hokkaido",
   "aomori",
@@ -46,8 +46,7 @@
   "kumamoto",
   "oita",
   "miyazaki",
-  "kagoshima",
-  "okinawa"
+  "kagoshima"
  ],
  "pages": {
   "hokkaido": {
@@ -327,10 +326,8 @@
    ]
   },
   "okinawa": {
-   "complete": false,
-   "reasons": [
-    "解説文(data/commentary)なし"
-   ]
+   "complete": true,
+   "reasons": []
   }
  }
 }
