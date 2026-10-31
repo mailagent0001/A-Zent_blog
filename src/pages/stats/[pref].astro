@@ -59,7 +59,7 @@ const ld = sections.map((s) => ({ '@context': 'https://schema.org', '@type': 'Da
 {sections.map((s) => (
   <>
     <h2 id={s.key}>{s.title}</h2>
-    <p style="font-size:.85rem;color:#7A7570">調査年: {years(s.rows)}</p>
+    <p style="font-size:.85rem;color:#66615C">調査年: {years(s.rows)}</p>
     <table class="t"><tbody>
       {s.rows.map((r) => (
         <tr><th>{r.name ?? r.code}</th><td>{show(r)}{s.key === 'population' && r.value != null && <span style={`display:block;height:6px;margin-top:6px;background:#E8302A;width:${Math.max(2, Math.round((r.value / popMax) * 100))}%`}></span>}</td></tr>
@@ -74,7 +74,7 @@ const ld = sections.map((s) => ({ '@context': 'https://schema.org', '@type': 'Da
     <li>{s.ds.statisticsName}「{s.ds.title}」(調査年: {s.years}、取得日: {s.ds.fetchedAt}) <a href={s.ds.sourceUrl} target="_blank" rel="noopener">出典(e-Stat)</a></li>
   ))}
 </ul>
-<p style="font-size:.85rem;color:#7A7570">「非公表」は、統計表で秘匿・該当なし・不詳などの記号が付いている項目で、数値の推計はしていません。市町村合併や境界の変更などにより、年度間で単純に比較できない場合があります。</p>
+<p style="font-size:.85rem;color:#66615C">「非公表」は、統計表で秘匿・該当なし・不詳などの記号が付いている項目で、数値の推計はしていません。市町村合併や境界の変更などにより、年度間で単純に比較できない場合があります。</p>
 
 {muni && (
   <>

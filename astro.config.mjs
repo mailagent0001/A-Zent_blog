@@ -15,6 +15,7 @@ const isHiddenStat = (/** @type {string} */ p) => {
 // https://astro.build/config
 export default defineConfig({
         site: 'https://a-zent.com',
+        build: { inlineStylesheets: 'always' },
         integrations: [mdx(), sitemap({ filter: (p) => !/\/(area\/(naha|okinawa|online)|industry)\//.test(p) && !isHiddenStat(p) })],
         fonts: [
                 {
