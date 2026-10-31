@@ -6,9 +6,10 @@ import HpLayout from './HpLayout.astro';
 type Props = CollectionEntry<'blog'>['data'];
 const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 const path = Astro.url.pathname;
+const ld = [{ '@context': 'https://schema.org', '@type': 'BlogPosting', headline: title, description, datePublished: pubDate.toISOString(), dateModified: (updatedDate ?? pubDate).toISOString(), mainEntityOfPage: 'https://a-zent.com' + path, image: heroImage ? new URL(heroImage.src, Astro.url).href : undefined, author: { '@type': 'Organization', name: 'A-Zent' }, publisher: { '@type': 'Organization', name: 'A-Zent', url: 'https://a-zent.com/' } }];
 const fmt = (d: Date) => d.toLocaleDateString('ja-JP', { year: 'numeric', month: 'long', day: 'numeric' });
 ---
-<HpLayout title={`${title}|A-Zent`} description={description} path={path} crumbs={[{ name: 'ホーム', path: '/' }, { name: 'コラム', path: '/blog/' }, { name: title, path }]} ogImage={heroImage?.src}>
+<HpLayout title={`${title}|A-Zent`} description={description} path={path} crumbs={[{ name: 'ホーム', path: '/' }, { name: 'コラム', path: '/blog/' }, { name: title, path }]} ogImage={heroImage?.src} ld={ld}>
 <div class="pg old on"><article class="doc">
   <div class="crumb"><a href="/">ホーム</a> › <a href="/blog/">コラム</a> › {title}</div>
   <h1>{title}</h1>
@@ -19,7 +20,7 @@ const fmt = (d: Date) => d.toLocaleDateString('ja-JP', { year: 'numeric', month:
 </article></div>
 </HpLayout>
 <style>
-  .meta { font-size: .85rem; color: #7A7570; margin: 0 0 16px; }
+  .meta { font-size: .85rem; color: #66615C; margin: 0 0 16px; }
   .hero { width: 100%; height: auto; border-radius: 12px; margin: 8px 0 24px; display: block; }
   .prose { line-height: 1.9; }
   .prose :global(h2) { font-size: 1.3rem; margin: 40px 0 12px; padding-left: 12px; border-left: 4px solid var(--em); }

@@ -1,0 +1,28 @@
+# A-Zent(アゼント)
+
+> 沖縄の企業を中心に、全国オンラインで、IT導入・DX支援と業務自動化を行う事業です。導入して終わりにせず、現場で使い続けられる仕組みづくりを、導入後のご相談まで含めて支援します。現在は、事前のご相談・ご意見を受け付けている段階で、契約や有償サービスの提供は行っていません。
+
+このサイトには、サービスの説明、考え方、よくあるご質問、都道府県別の公的統計(出典付き)、制度や補助金などに関するコラムがあります。統計ページの数字は、e-Stat(政府統計の総合窓口)から取得したもので、各ページに、統計名・調査年・取得日・出典URLを載せています。
+
+## サービス
+- [IT導入・DX支援](https://a-zent.com/service/it-dx/): 業務の整理から、現場に合うツールの選び方まで
+- [業務自動化](https://a-zent.com/service/automation/): 毎月くり返す転記・集計・通知などを自動化する考え方
+- [サービス一覧](https://a-zent.com/service/): サービスの概要と流れ
+
+## 統計データ(出典付き)
+- [統計データの一覧](https://a-zent.com/stats/): 都道府県別の人口・事業所数・収入・余暇
+- [沖縄県の統計データ](https://a-zent.com/stats/okinawa/): 市町村別の年齢3区分を含む
+- [九州・沖縄の都道府県比較](https://a-zent.com/stats/region/kyushu-okinawa/)
+
+## 情報
+- [コラム](https://a-zent.com/blog/): 制度・補助金・IT活用などの情報
+- [A-Zentについて](https://a-zent.com/about/)
+- [効果シミュレーター](https://a-zent.com/simulator/): 業務自動化で減らせる時間と金額の目安を計算
+
+## ご相談
+- [事前相談・ご意見の送信](https://a-zent.com/contact/)
+
+## その他
+- [プライバシーポリシー](https://a-zent.com/privacy/)
+- [利用規約](https://a-zent.com/terms/)
+- [情報セキュリティ基本方針](https://a-zent.com/security/)
